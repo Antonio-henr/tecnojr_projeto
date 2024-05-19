@@ -58,7 +58,7 @@ export default function Home() {
         <div className={styles.containerHeader1}>
           <a href="./">
             <Image
-              src="/logo_tecno2.webp"
+              src="public/logo_tecno2.webp"
               className={styles.imageHeader}
               width={152.88}
               height={31.64}
