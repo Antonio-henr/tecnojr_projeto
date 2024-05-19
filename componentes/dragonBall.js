@@ -52,7 +52,7 @@ export default function DragonBall() {
           height={964}
           style={{ width:"350px", height:"60px"}}
           />
-          <h3 style={{ marginLeft: "40px" }}>
+          <h3 style={{ marginLeft: "40px", color:"white" }}>
           As aventuras de um poderoso guerreiro chamado Goku, seu filho Gohan e seus aliados, que se esforçam para defender a Terra das ameaças. Eles são auxiliados por um dragão que concede os desejos de quem quer que reúna as sete Esferas do Dragão.
           </h3>
         </div>

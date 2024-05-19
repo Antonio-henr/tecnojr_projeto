@@ -62,13 +62,13 @@ export default function Membros() {
             <div className={styles.divanimada} style={{ width: logoanimada }}>
               <Image src="/tecno_logo.png" width={120} height={120} priority />
             </div>
-            <h1 style={{ position: "absolute", marginLeft: "150px" }}>
+            <h1 style={{ position: "absolute", marginLeft: "150px", color:"white" }}>
               Membros
             </h1>
           </div>
           <div>
-            <h2>O que voccê vai encontrar?</h2>
-            <p style={{ marginTop: "30px", letterSpacing:"2px" }}>
+            <h2 style={{color:"white"}}>O que voccê vai encontrar?</h2>
+            <p style={{ marginTop: "30px", letterSpacing:"2px", color:"white" }}>
               Junte-se à nossa área de membros para acesso exclusivo a conteúdos
               inéditos, benefícios especiais e uma comunidade engajada. Explore
               novos horizontes, conecte-se com pessoas afins e aprofunde seu
@@ -102,8 +102,8 @@ export default function Membros() {
                 alignItems: "center",
               }}
             >
-              <h1>Área de Membros</h1>
-              <p>Insira suas informações de login</p>
+              <h1 style={{color:"white"}}>Área de Membros</h1>
+              <p style={{color:"white"}}>Insira suas informações de login</p>
             </div>
             <input
               type="email"
@@ -136,6 +136,7 @@ export default function Membros() {
                 
                 display:"flex",
                 justifyContent:"center",
+                color:"white"
               }}>ou</h2>
             <div
               style={{

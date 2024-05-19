@@ -29,19 +29,19 @@ const Redes = ({ isOpen, onClose, children }) => {
       <div style={{display:"flex", width:"33vh", justifyContent:"space-between"}}>
         <div className={styles.icon} >
           <a href="https://api.whatsapp.com/send?phone=5573999366330" target="_blank">
-          <FaWhatsapp size={50}/>
+          <FaWhatsapp size={50} color="white"/>
           </a>
         </div>
         <div className={styles.icon}>
         <a href="https://www.instagram.com/antonio.henr/" target="_blank">
 
-          <FaInstagram size={50}/>
+          <FaInstagram size={50} color="white"/>
           </a>
         </div>
         <div className={styles.icon}>
         <a href="https://github.com/Antonio-henr" target="_blank">
 
-          <FaGithub size={50}/>
+          <FaGithub size={50} color="white"/>
           </a>
         </div>
       </div>

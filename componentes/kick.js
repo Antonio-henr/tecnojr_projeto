@@ -22,8 +22,8 @@ export default function Kick() {
           style={{ marginLeft: "-145px" }}
         ></Image>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <h2 style={{ fontSize: "30px" }}>Kick Buttowski</h2>
-          <h3>
+          <h2 style={{ fontSize: "30px", color:"white" }}>Kick Buttowski</h2>
+          <h3 style={{color:"white"}}>
             Um jovem garoto chamado Clarence "Kick" Buttowski, que inspira a se
             tornar o maior aventureiro do mundo. O episódio piloto foi assistido
             por 842.000 espectadores, a maior estreia avaliada na história do

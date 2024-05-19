@@ -148,8 +148,8 @@ export default function Membros() {
                   alignItems: "center",
                 }}
               >
-                <h1>Área de Membros</h1>
-                <p>Insira suas informações de login</p>
+                <h1 style={{color:"white"}}>Área de Membros</h1>
+                <p style={{color:"white"}}>Insira suas informações de login</p>
               </div>
               <input
                 type="email"
@@ -179,9 +179,9 @@ export default function Membros() {
               <h2 style={{
                 marginTop:"1rem",
                 width: "100%",
-                
                 display:"flex",
                 justifyContent:"center",
+                color:"white"
               }}>ou</h2>
             <div
               style={{
@@ -226,7 +226,7 @@ export default function Membros() {
             flexDirection: "column",
           }}
         >
-          <h1 style={{ fontSize: 50, letterSpacing:"8px" }}>Sobre Nós</h1>
+          <h1 style={{ fontSize: 50, letterSpacing:"8px",color:"white" }}>Sobre Nós</h1>
 
           <p className={styles.paragrafo}>
             Hoje, reunimo-nos para celebrar algo extraordinário: o poder e a
@@ -282,8 +282,8 @@ export default function Membros() {
             intensamente, guiando o caminho para as possibilidades infinitas que
             aguardam aqueles que se atrevem a sonhar.
           </p>
-          <h3>Obrigado! </h3>
-          <h4>Texto gerado pelo ChatGPT 3.5</h4>
+          <h3 style={{color:"white"}}>Obrigado! </h3>
+          <h4 style={{color:"white"}}>Texto gerado pelo ChatGPT 3.5</h4>
         </div>
         <div style={{ width: "20vw", height: "100vh", display: "flex" }}></div>
       </div>
@@ -308,7 +308,7 @@ export default function Membros() {
               className={styles.sideimage}
               alt="guanabara"
             />
-            <h2 className={styles.textocentro}>Herói</h2>
+            <h2 className={styles.textocentro} style={{color:"white"}}>Herói</h2>
           </div>
         </div>
 
@@ -324,7 +324,7 @@ export default function Membros() {
               
               alt="mark zuckerberg"
             />
-            <h2 className={styles.textocentro}>Plano A</h2>
+            <h2 className={styles.textocentro} style={{color:"white"}}>Plano A</h2>
 
           </div>
         </div>
@@ -341,7 +341,7 @@ export default function Membros() {
 
               alt="mr.robot"
             />
-            <h2 className={styles.textocentro}>Plano B</h2>
+            <h2 className={styles.textocentro} style={{color:"white"}}>Plano B</h2>
 
           </div>
         </div>

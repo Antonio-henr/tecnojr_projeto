@@ -75,22 +75,22 @@ const Footer=({modal, membros}) =>{
         <ul className={`${styles.links} ${styles.ul} `}>
           <li>
             <Link href="./">
-              <h3>home</h3>
+              <h3 style={{color:"white"}}>home</h3>
             </Link>
           </li>
           <li>
-              <h3 style={{cursor:"pointer"}} onClick={membros}>membros</h3>
+              <h3 style={{cursor:"pointer",color:"white"}} onClick={membros}>membros</h3>
           </li>
           <li>
-            <h3 style={{cursor:"pointer"}} onClick={modal}>redes</h3>
+            <h3 style={{cursor:"pointer",color:"white"}} onClick={modal}>redes</h3>
           </li>
           <li>
             <Link href="./sobre">
-              <h3>sobre</h3>
+              <h3 style={{color:"white"}}>sobre</h3>
             </Link>
           </li>
         </ul>
-        <p className={styles.legal}>© 2024 All rights reserved by Antonio</p>
+        <p className={styles.legal} style={{color:"white"}}>© 2024 All rights reserved by Antonio</p>
       </section>
     </footer>
   );

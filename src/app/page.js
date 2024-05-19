@@ -56,15 +56,15 @@ export default function Home() {
       <div className={styles.headerinvisivel} />
       <div className={styles.header}>
         <div className={styles.containerHeader1}>
-        <a href="./">
-          <Image
-            src="/logo_tecno2.webp"
-            className={styles.imageHeader}
-            width={152.88}
-            height={31.64}
-            priority
-            data-aos="flip-left"
-          />
+          <a href="./">
+            <Image
+              src="/logo_tecno2.webp"
+              className={styles.imageHeader}
+              width={152.88}
+              height={31.64}
+              priority
+              data-aos="flip-left"
+            />
           </a>
         </div>
         <div className={styles.containerHeader2}>
@@ -166,8 +166,10 @@ export default function Home() {
                   alignItems: "center",
                 }}
               >
-                <h1>Área de Membros</h1>
-                <p>Insira suas informações de login</p>
+                <h1 style={{ color: "white" }}>Área de Membros</h1>
+                <p style={{ color: "white" }}>
+                  Insira suas informações de login
+                </p>
               </div>
               <input
                 type="email"
@@ -194,24 +196,28 @@ export default function Home() {
                   Entrar
                 </h2>
               </button>
-              <h2 style={{
-                marginTop:"1rem",
-                width: "100%",
-                
-                display:"flex",
-                justifyContent:"center",
-              }}>ou</h2>
-            <div
-              style={{
-                marginTop:"1rem",
-                width: "100%",
-                
-                display:"flex",
-                justifyContent:"center",
-              }}
-            >
-              <GoogleLoginButton />
-            </div>
+              <h2
+                style={{
+                  marginTop: "1rem",
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "center",
+                  color: "white",
+                }}
+              >
+                ou
+              </h2>
+              <div
+                style={{
+                  marginTop: "1rem",
+                  width: "100%",
+
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <GoogleLoginButton />
+              </div>
             </form>
           </div>
         </div>
@@ -234,8 +240,14 @@ export default function Home() {
         }}
       />
 
-   
-      <Footer modal={()=>{abrindoRendes()}} membros={()=>{setmodal(true)}}/>
+      <Footer
+        modal={() => {
+          abrindoRendes();
+        }}
+        membros={() => {
+          setmodal(true);
+        }}
+      />
     </main>
   );
 }

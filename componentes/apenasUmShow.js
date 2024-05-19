@@ -25,13 +25,13 @@ export default function ApenasUmShow() {
 
             }}
           />
-          <h3 style={{ marginLeft: "40px" }}>
+          <h3 style={{ marginLeft: "40px", color:"white" }}>
           Mordecai e Rigby são guardas de um parque. Mas esses melhores amigos são preguiçosos e não deixam o trabalho interferir com sua capacidade de se divertir.
           </h3>
         </div>
         <Image src="/apenas_um_show.png" width={350} height={350} />
 
-        <h3 style={{ marginRight: "40px" }}>
+        <h3 style={{ marginRight: "40px", color:"white" }}>
         Os amigos acabam sempre pagando pelas suas ações irresponsáveis, pois se metem em mais confusões do que esperavam. A negligência no trabalho causa muito desgosto ao chefe temperamental da dupla, Benson.
         </h3>
       </div>

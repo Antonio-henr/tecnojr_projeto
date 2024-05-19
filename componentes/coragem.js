@@ -34,7 +34,7 @@ export default function Coragem() {
           >
             Coragem o cão covarde
           </h2>
-          <h3>
+          <h3 style={{color:"white"}}>
             Coragem é um cachorro que vive em uma fazenda distante onde
             acontecem aparições de monstros, fantasmas e outras criaturas. O
             animal está sempre defendendo e salvando seus donos idosos de
