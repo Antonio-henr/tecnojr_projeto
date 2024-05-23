@@ -4,7 +4,7 @@ import { Poppins } from "next/font/google";
 import { React, useEffect, useState } from "react";
 
 import lua from "../public/espaco.jpg"
-
+import nasa from "../public/nasa.png"
 
 export default function Nasa() {
   const [dados, setdados] = useState(false);
@@ -68,7 +68,7 @@ export default function Nasa() {
         >
           Direto da{" "}
           <Image
-            src="/nasa.png"
+            src={nasa}
             height={130}
             width={130}
             style={{ marginLeft: "10px" }}
