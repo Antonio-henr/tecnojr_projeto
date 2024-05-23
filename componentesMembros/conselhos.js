@@ -3,6 +3,9 @@ import styles from "../src/app/membros.module.css";
 import { Abyssinica_SIL, Poppins } from "next/font/google";
 import { React, useEffect, useState } from "react";
 
+import socrates from "../public/socrates.png"
+
+
 export default function Conselhos() {
   const [dados, setdados] = useState(false);
   const [data, setData] = useState([]);
@@ -50,7 +53,7 @@ export default function Conselhos() {
             }}
           >
             <Image
-              src="/socrates.png"
+              src={socrates}
               width={200}
               height={200}
               style={{ marginRight: "-30px", marginTop: 0 }}

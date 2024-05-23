@@ -7,6 +7,9 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { GoogleLogin } from "@react-oauth/google";
 import GoogleLoginButton from "./googleLogin";
+import logotecno from "../public/tecno_logo.png"
+
+
 
 export default function Membros() {
   const [logoanimada, setlogoanimada] = useState("100%");
@@ -60,7 +63,7 @@ export default function Membros() {
             }}
           >
             <div className={styles.divanimada} style={{ width: logoanimada }}>
-              <Image src="/tecno_logo.png" width={120} height={120} priority />
+              <Image src={logotecno} width={120} height={120} priority />
             </div>
             <h1 style={{ position: "absolute", marginLeft: "150px", color:"white" }}>
               Membros

@@ -16,6 +16,7 @@ import Numeros from "../../../../componentesMembros/numeros";
 import Redes from "../../../../componentes/redes";
 import { useRouter } from "next/navigation";
 
+import logotTecno from "../../../../public/logo_tecno2.webp"
 
 export default function Membros() {
   const [dados, setdados] = useState({});
@@ -44,7 +45,7 @@ export default function Membros() {
         <div className={styles.containerHeader1}>
         <a href="./">
           <Image
-            src="/logo_tecno2.webp"
+            src={logotTecno}
             className={styles.imageHeader}
             width={152.88}
             height={31.64}

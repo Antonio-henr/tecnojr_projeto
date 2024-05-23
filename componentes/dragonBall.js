@@ -4,6 +4,11 @@ import { Poppins } from "next/font/google";
 import React from "react";
 import { useState } from "react";
 
+import dragao from "../public/dragao.webp"
+import gokuvoando from "../public/gokuvoando.png"
+import dragonballlogo from "../public/Dragon_Ball_Z_logo.svg"
+import dragonball2 from "../public//dragon-ball2.png"
+
 export default function DragonBall() {
   const [voar, setvoar] = useState(0);
   const [sumir, setsumir] = useState("0.0");
@@ -23,13 +28,13 @@ export default function DragonBall() {
       }}
     >
       <Image
-        src="/dragao.webp"
+        src={dragao}
         width={237.44}
         height={344.32}
         style={{ left: 60, position: "absolute", zIndex: 3 }}
       ></Image>
       <Image
-        src="/gokuvoando.png"
+        src={gokuvoando}
         width={250}
         height={250}
         className={styles.imggokuvoando}
@@ -47,7 +52,7 @@ export default function DragonBall() {
       >
         <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
           <Image
-          src="/Dragon_Ball_Z_logo.svg"
+          src={dragonballlogo}
           width={3780}
           height={964}
           style={{ width:"350px", height:"60px"}}
@@ -57,7 +62,7 @@ export default function DragonBall() {
           </h3>
         </div>
         <Image
-          src="/dragon-ball2.png"
+          src={dragonball2}
           width={300}
           height={300}
           className={styles.coragem1}

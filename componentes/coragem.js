@@ -4,14 +4,18 @@ import { Poppins } from "next/font/google";
 import React from "react";
 import { useState } from "react";
 
+import coragem1 from "../public/coragem1.png"
+import coragem2 from "../public/coragem2.png"
+import casacoragem from "../public/casa_do_coragem.png"
+
 export default function Coragem() {
-  const [img, setimg] = useState("/coragem1.png");
+  const [img, setimg] = useState(coragem1);
 
   const mudarimg = () => {
-    if (img == "/coragem1.png") {
-      setimg("/coragem2.png");
+    if (img == coragem1) {
+      setimg(coragem2);
     } else {
-      setimg("/coragem1.png");
+      setimg(coragem1);
     }
   };
 
@@ -42,7 +46,7 @@ export default function Coragem() {
           </h3>
         </div>
         <Image
-          src="/casa_do_coragem.png"
+          src={casacoragem}
           width={570}
           height={570}
           style={{ marginTop: 50, marginRight: "-380px" }}

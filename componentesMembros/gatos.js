@@ -5,6 +5,9 @@ import { React, useEffect, useState } from "react";
 import { FaPaw } from "react-icons/fa";
 import { PiCatLight } from "react-icons/pi";
 
+import gato from "../public/gato.png"
+
+
 export default function Gatos() {
   const [dados, setdados] = useState(false);
   const [data, setData] = useState([]);
@@ -41,7 +44,7 @@ export default function Gatos() {
       data-aos="fade-in-down"
     >
       <Image
-        src="/gato.png"
+        src={gato}
         width={150}
         height={150}
         style={{ position: "absolute", bottom: "0px", left: "0px" }}

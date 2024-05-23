@@ -4,6 +4,13 @@ import { Poppins } from "next/font/google";
 import React from "react";
 import { useState } from "react";
 
+
+import dramatotallogo from "../public/drama-total.png"
+import luz from "../public/luz.png"
+import luzinvertida from "../public/luzinvertida.png"
+import flashh from "../public/flash.png"
+import dramatotal from "../public/dramatotal.png"
+
 export default function Dramatotal() {
   const [luzes, setluzes] = useState("none");
   const [esquerda, setesquerda] = useState("20%");
@@ -61,20 +68,6 @@ export default function Dramatotal() {
         setcima("-30%");
         settam(120);
       }, 650);
-      // setTimeout(() => {
-      //   setluzes("block");
-      //   setesquerda("60%");
-      //   setcima("-25%");
-      //   settam(500);
-      // }, 700);
-
-      // setTimeout(() => {
-      //   setluzes("block");
-      //   setesquerda("50%");
-      //   setcima("-45%");
-      //   settam(350);
-      // }, 800);
-
       setTimeout(() => {
         setluzes("none");
       }, 900);
@@ -101,13 +94,13 @@ export default function Dramatotal() {
         data-aos="fade-up-left"
       >
         <Image
-          src="/drama-total.png"
+          src={dramatotallogo}
           width={300}
           height={300}
           style={{ marginLeft: "-75px", zIndex: 2 }}
         />
         <Image
-          src="/luz.png"
+          src={luz}
           width={75}
           height={75}
           style={{
@@ -123,7 +116,7 @@ export default function Dramatotal() {
         />
 
         <Image
-          src="/luzinvertida.png"
+          src={luzinvertida}
           width={100}
           height={110}
           style={{
@@ -138,7 +131,7 @@ export default function Dramatotal() {
         />
 
         <Image
-          src="/flash.png"
+          src={flashh}
           width={tam}
           height={tam}
           style={{
@@ -158,7 +151,7 @@ export default function Dramatotal() {
         <h3>(Bem melhor que BBB).</h3>
         </div>
         <Image
-          src="/dramatotal.png"
+          src={dramatotal}
           width={350}
           height={350}
           style={{ zIndex: 2 }}

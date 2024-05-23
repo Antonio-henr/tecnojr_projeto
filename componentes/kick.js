@@ -4,6 +4,11 @@ import { Poppins } from "next/font/google";
 import React from "react";
 import { useState } from "react";
 
+
+import kick1 from "../public/kick1.png"
+// import kickvideo from "../public/kickvideo.mp4"
+
+
 export default function Kick() {
   return (
     <div style={{ width: "100%" }} data-aos="fade-left">
@@ -11,12 +16,14 @@ export default function Kick() {
         <video
           src="/kickvideo.mp4"
           autoPlay
+          type="video/MP4"
           loop
           muted
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
-        />
+        >
+        </video>
         <Image
-          src="/kick1.png"
+          src={kick1}
           width={300}
           height={300}
           style={{ marginLeft: "-145px" }}

@@ -18,6 +18,11 @@ import Redes from "../../componentes/redes";
 import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
 import GoogleLoginButton from "../../componentes/googleLogin";
 
+
+import tecnologo from "../../public/logo_tecno2.webp"
+import desenhopapeldeparede from "../../public/desenhos_wall.png"
+
+
 export default function Home() {
   useEffect(() => {
     AOS.init({
@@ -58,7 +63,7 @@ export default function Home() {
         <div className={styles.containerHeader1}>
           <a href="./">
             <Image
-              src="/logo_tecno2.webp"
+              src={tecnologo}
               className={styles.imageHeader}
               width={152.88}
               height={31.64}
@@ -113,7 +118,7 @@ export default function Home() {
         }}
       >
         <Image
-          src="/desenhos_wall.png"
+          src={desenhopapeldeparede}
           className={styles.imgfundo}
           width={2000}
           height={720}

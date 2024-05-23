@@ -2,8 +2,9 @@ import Image from "next/image";
 import styles from "../src/app/membros.module.css";
 import { Poppins } from "next/font/google";
 import { React, useEffect, useState } from "react";
-import { FaPaw } from "react-icons/fa";
-import { PiCatLight } from "react-icons/pi";
+
+import lua from "../public/espaco.jpg"
+
 
 export default function Nasa() {
   const [dados, setdados] = useState(false);
@@ -42,7 +43,7 @@ export default function Nasa() {
       data-aos="fade-in-down"
     >
       <Image
-        src="/espaco.jpg"
+        src={lua}
         fill
         style={{
           objectPosition: "center",

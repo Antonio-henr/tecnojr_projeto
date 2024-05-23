@@ -17,6 +17,11 @@ import Redes from "../../../../componentes/redes";
 import { useRouter } from "next/navigation";
 import GoogleLoginButton from "../../../../componentes/googleLogin";
 
+import logoTecno from "../../../../public/logo_tecno2.webp"
+import guanabara from "../../../../public/guanabara.jpg"
+import mark from "../../../../public/marquinho.jpg"
+import mrrobot from "../../../../public/mrrobot.webp"
+
 
 export default function Membros() {
   const [dados, setdados] = useState({});
@@ -59,7 +64,7 @@ export default function Membros() {
         <div className={styles.containerHeader1}>
           <a href="./">
           <Image
-            src="/logo_tecno2.webp"
+            src={logoTecno}
             className={styles.imageHeader}
             width={152.88}
             height={31.64}
@@ -301,7 +306,7 @@ export default function Membros() {
         <div  className={styles.polaroid}>
           <div style={{ width: "100%", height: "100%", position:"relative" }}>
             <Image
-              src="/guanabara.jpg"
+              src={guanabara}
               width={1920}
               height={1080}
               priority
@@ -316,7 +321,7 @@ export default function Membros() {
         <div  className={styles.polaroid}>
           <div style={{ width: "100%", height: "100%" }}>
             <Image
-              src="/marquinho.jpg"
+              src={mark}
               width={1920}
               height={1080}
               priority
@@ -333,7 +338,7 @@ export default function Membros() {
         <div  className={styles.polaroid}>
           <div style={{ width: "100%", height: "100%" }}>
             <Image
-              src="/mrrobot.webp"
+              src={mrrobot}
               width={1920}
               height={1080}
               priority
