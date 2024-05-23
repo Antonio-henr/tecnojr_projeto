@@ -63,12 +63,8 @@ export default function Home() {
         <div className={styles.containerHeader1}>
           <a href="./">
             <Image
-<<<<<<< HEAD
               src={tecnologo}
-=======
-              src="public/logo_tecno2.webp"
->>>>>>> 309b3d6e3b15e10146a877bd80e414b6584fbdf0
-              className={styles.imageHeader}
+                className={styles.imageHeader}
               width={152.88}
               height={31.64}
               priority
