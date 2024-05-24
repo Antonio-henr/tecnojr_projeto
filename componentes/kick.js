@@ -14,13 +14,13 @@ export default function Kick() {
     <div style={{ width: "100%" }} data-aos="fade-left">
       <div className={`${styles.containerDesenhokick} ${styles.sombra}`}>
         <video
-          src="/kickvideo.mp4"
           autoPlay
-          type="video/MP4"
           loop
+          preload="none"
           muted
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         >
+          <source src="../public/kickvideo.mp4" type="video/MP4"/>
         </video>
         <Image
           src={kick1}
